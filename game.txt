@@ -1,0 +1,44 @@
+# Práctica 2: Github
+
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>My Game</title>
+	<link rel="stylesheet" href="animation.css">
+</head>
+<body>
+	<div class="text" style="text-align: center; width: 100%">
+		<p>learning</p>
+		<p>
+			<span class="word wisteria">HTML.</span>
+			<span class="word belize">JavaScript.</span>
+			<span class="word pomegranate">CSS.
+		</p>
+	</div>
+	<hr />
+
+	<label for="name">Name: </label><input type="text" id="name" name="name" placeholder="Enter your name"/>
+	<button onclick="sayHello()">Hello</button>
+	<br /><br />
+
+	<div style="text-align: center; width :100%">
+		<canvas id="ctx" width="525" height="294" style="border: thin solid black; background-image: url('canas-background.png')"></canvas>
+	</div>
+
+	<hr />
+	<h3 style="text-align: center;">Consultas asincronas</h3>
+	<label for="cmbBreed">Raza: </label><select id="cmbBreed" name="cmbBreed"></select>
+	<br />
+	<div id="picture" style="text-align: center;">
+	</div>
+	<br /><br />
+
+	<script> T
+		////// Canvas setup /////
+		var ctx = document.getElementByld("ctx").getContext("2d");
+	</script>
+	<script src="game-functions.js"></script>
+	<script src="animation.js"></script>
+</body>
+</html>
